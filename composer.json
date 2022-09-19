@@ -1,0 +1,18 @@
+{
+    "name": "prestashop/extmmod",
+    "authors": [
+        {
+            "name": "Fernandes Alves Fabien",
+            "email": "fabien.fernandes@prestashop.com"
+        }
+    ],
+    "autoload": {
+      "psr-4": {
+        "PrestaShop\\Module\\Extmmod\\": "src/"
+      },
+      "config": {
+        "prepend-autoloader": false
+      },
+      "type": "prestashop-module"
+    }
+}
